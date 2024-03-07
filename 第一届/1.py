@@ -241,7 +241,6 @@ for index, row in df.iterrows():
 
                 if not pd.isna(row.iloc[21]):  # 检查第21个元素是否为缺失值
                     if '调休' in row.iloc[21]:
-
                         update_data(name_names, '调休',
                                     query_data(name_names, '调休') + time_difference_tiao(list(row)[21]))
                     if '事假' in row.iloc[21]:
