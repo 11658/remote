@@ -41,7 +41,7 @@ hhh = response.cookies.get("sessionid")
 
 for i in range(1, 10):
     import requests
-
+    # print(i)
     url1 = "https://match.yuanrenxue.cn/api/match/13?page=5"
 
     querystring1 = {"page": "5"}
